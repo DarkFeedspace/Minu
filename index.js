@@ -769,23 +769,23 @@ client.on('CB:action,,battery', json => {
 	╭◪ *「 📝REGISTRO📝  」*
 	╰───────────────╮
 	╭───────────────╯
-	├❏ Para se registrar :
-	├❏「📌」Basta digitar ${prefix}rg nome/idade
-	├❏ *exemplo : ${prefix}rg NOME/15*
+	├❏ Para que se pueda registrar :
+	├❏「📌」Ponga : ${prefix}rg Nombre/Edad
+	├❏ *ejemplo : ${prefix}rg Pablo/18*
 	╰───────────────╯						
 										`,
-				success: '✔️ Deu certo ✔️',
+				success: '✔️ Funcionó ✔️',
 				error: {
-					stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
-					Iv: '❌ Link inválido ❌'
+					stick: '❌ Falló, se produjo un error al convertir la imagen en una pegatina ❌',
+					Iv: '❌ Enlace inválido ❌'
 				},
 				only: {
-					group: '❌ Este comando só pode ser usado em grupos! ❌',
-					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					ownerG: '❌ Este comando só pode ser usado pelo dono! ❌',
-					ownerB: '❌ Este comando só pode ser usado pelo meu dono! ❌',
-					admin: '❌ Este comando só pode ser usado por administradores de grupo! ❌',
-					Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+					group: '❌ ¡Este comando solo se puede usar en grupos! ❌',
+					premium: '[❗] ESTE PEDIDO ES SOLO PARA * USUARIOS PREMIUM *',
+					ownerG: '❌ ¡Este comando solo puede ser utilizado por el propietario! ❌',
+					ownerB: '❌ ¡Este comando solo puede ser utilizado por mi propietario! ❌',
+					admin: '❌ ¡Este comando solo puede ser utilizado por administradores de grupo! ❌',
+					Badmin: '❌ ¡Este comando solo se puede usar cuando el niño se convierte en administrador! ❌'
 				}
 			}
 			//CONSTS DO BOT NÃO MEXA SE N SOUBER
